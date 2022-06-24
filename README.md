@@ -1,0 +1,2 @@
+# Tactile-Controller
+I took data with an Arduino Uno and an acelerometer/gyroscope sensor in order to train a machine learning model to classify whether the controller is being moved up, down, left, or right. I compared several different models to determine which one performed the best. I found that the Support Vector Machine was most suited for the project and it obtained about an 86% accuracy. The model could be uploaded to another microcontroller to be used as an HID device with programs such as Fusion 360 or Photoshop. 
